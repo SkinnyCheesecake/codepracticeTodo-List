@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="#">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Todo</title>
+</head>
+<body>
+    <section class="todo">
+        <h2>To-Do List</h2>
+        <div class="input">
+            <input type="text" class="input-field" id="todoInput" placeholder="Add a new element">
+            <button class="btn">Add</button>
+        </div>
+        <ul class="scroll">
+            <li id="todoList"></li>
+        </ul>
+        <div>
+            <hr class="counter">
+            <div class="counter-container">
+                <p><span id="todoCount">0</span> Items total</p>
+                <button id="deleteButton">Delete All</button>
+            </div> 
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <p class="made-by">Made by the one and only </p>
+            <p class="author">ynt2urx</p>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
